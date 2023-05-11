@@ -1,0 +1,35 @@
+GET http://localhost:8081/api/tasks
+
+###
+
+POST http://localhost:8081/api/tasks
+content-Type: "application/json"
+
+{
+    "title": "TESTE JSON",
+    "content": "TESTE JSON"
+}
+
+########################################################
+
+
+### Update
+PATCH http://localhost:8081/api/edit/7136fd0e-f2c6-4d80-9997-ee890cef2a8f
+Content-Type: application/json
+
+{
+    "title": "TESTE JSON updated",
+    "content": "TESTE JSON"
+}
+### Mark
+PATCH http://localhost:8081/api/done/7136fd0e-f2c6-4d80-9997-ee890cef2a8f
+Content-Type: application/json
+
+
+### Delete
+DELETE http://localhost:8081/api/delete/7136fd0e-f2c6-4d80-9997-ee890cef2a8f
+Content-Type: application/json
+
+### Find
+GET http://localhost:8081/api/find/7136fd0e-f2c6-4d80-9997-ee890cef2a8f
+Content-Type: application/json

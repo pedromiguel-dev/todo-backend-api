@@ -1,0 +1,38 @@
+<ul id="taks_container">
+    <% for( let index=0; index < tasks.length; index++ ) { %>
+        <li style="padding: 10px;">
+            <div style="
+                        display: flex;
+                        gap: 1rem;
+                        align-items: center;
+                        ">
+                <div style="display: flex; ">
+                    <form action="http://localhost:8081/delete/<%=tasks[index].id%>" method="GET">
+                        <button hx-delete="http://localhost:8081/delete/<%=tasks[index].id%>" hx-target="closest ul"
+                            hx-swap="outerHTML">
+                            ❌</button>
+                    </form>
+                    <form action="http://localhost:8081/find/<%=tasks[index].id%>" method="GET">
+                        <button hx-get="http://localhost:8081/find/<%=tasks[index].id%>" hx-target="closest li"
+                            hx-swap="outerHTML">
+                            📝</button>
+                    </form>
+                    <form action="http://localhost:8081/done/<%=tasks[index].id%>" method="POST">
+                        <button hx-patch="http://localhost:8081/done/<%=tasks[index].id%>" hx-target="closest ul"
+                            hx-swap="outerHTML">
+                            ✅</button>
+                    </form>
+                </div>
+                <a href="http://localhost:8081/<%=tasks[index].id%>">
+                    <% if (!tasks[index].completed) { %>
+                        <%=tasks[index].title%>
+                            <% } else { %>
+                                <s>
+                                    <%=tasks[index].title%>
+                                </s>
+                                <% } %>
+                </a>
+            </div>
+        </li>
+        <% } %>
+</ul>

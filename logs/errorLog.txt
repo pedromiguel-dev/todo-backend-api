@@ -1,0 +1,377 @@
+11052023:18:28:36	c86098ee-a61a-43c6-adaf-9eba4e9f9cf4	Error: ENOENT: no such file or directory, stat 'D:\Developer\projects\todo-backend-api\routes\views\index.html'
+11052023:18:32:04	4a582208-44a6-4e46-a787-ee1b673a0860	Error: ENOENT: no such file or directory, stat 'D:\Developer\projects\todo-backend-api\routes\views\index.html'
+11052023:18:41:02	2b97859f-7082-4027-ba1f-e025d3e7c087	Error: D:\Developer\projects\todo-backend-api\views\index.pug:18:1
+    16| 			h2 list tasks
+    17| 			ul(id="taks_container")
+  > 18|                 each val in 
+--------^
+    19|                     li= val
+    20| 
+
+Invalid indentation, you can use tabs or spaces but not both
+11052023:18:41:24	3b57b634-cee4-48aa-a37d-287e899cb73d	Error: D:\Developer\projects\todo-backend-api\views\index.pug:18:1
+    16| 			h2 list tasks
+    17| 			ul(id="taks_container")
+  > 18|                 each val in task
+--------^
+    19|                     li= val
+    20| 
+
+Invalid indentation, you can use tabs or spaces but not both
+11052023:18:41:25	ea4e34b8-783e-49a0-8891-ef0796a6cdde	Error: D:\Developer\projects\todo-backend-api\views\index.pug:18:1
+    16| 			h2 list tasks
+    17| 			ul(id="taks_container")
+  > 18|                 each val in task
+--------^
+    19|                     li= val
+    20| 
+
+Invalid indentation, you can use tabs or spaces but not both
+11052023:18:42:00	b7d36da4-a3f6-4d97-b149-8665687bdb16	Error: D:\Developer\projects\todo-backend-api\views\index.pug:18:1
+    16| 			h2 list tasks
+    17| 			ul(id="taks_container")
+  > 18|                 each val in task
+--------^
+    19|                     li = val
+    20| 
+
+Invalid indentation, you can use tabs or spaces but not both
+11052023:18:42:58	41f28b6c-bd83-4821-b80f-c05034512e68	Error: D:\Developer\projects\todo-backend-api\views\index.pug:18:1
+    16| 			h2 list tasks
+    17| 			ul(id="taks_container")
+  > 18|                 each val in task.length ? task : ['There are no values']
+--------^
+    19|                     li = val
+    20| 
+
+Invalid indentation, you can use tabs or spaces but not both
+11052023:18:42:59	877326c7-3527-4428-938d-7dce958351e7	Error: D:\Developer\projects\todo-backend-api\views\index.pug:18:1
+    16| 			h2 list tasks
+    17| 			ul(id="taks_container")
+  > 18|                 each val in task.length ? task : ['There are no values']
+--------^
+    19|                     li = val
+    20| 
+
+Invalid indentation, you can use tabs or spaces but not both
+11052023:18:42:59	b7810ebb-e31a-4453-93fc-36dd483d91dc	Error: D:\Developer\projects\todo-backend-api\views\index.pug:18:1
+    16| 			h2 list tasks
+    17| 			ul(id="taks_container")
+  > 18|                 each val in task.length ? task : ['There are no values']
+--------^
+    19|                     li = val
+    20| 
+
+Invalid indentation, you can use tabs or spaces but not both
+11052023:18:43:00	d609d79a-96a7-47c8-89e6-e77f3bea1dc0	Error: D:\Developer\projects\todo-backend-api\views\index.pug:18:1
+    16| 			h2 list tasks
+    17| 			ul(id="taks_container")
+  > 18|                 each val in task.length ? task : ['There are no values']
+--------^
+    19|                     li = val
+    20| 
+
+Invalid indentation, you can use tabs or spaces but not both
+11052023:18:43:36	f7ece5e6-26f6-4b40-a5bc-1398d09aef4d	Error: D:\Developer\projects\todo-backend-api\views\index.pug:18:1
+    16| 			h2 list tasks
+    17| 			ul(id="taks_container")
+  > 18|                 each val in task
+--------^
+    19|                     li = val
+    20|                 else 
+    21|                     li There are no values
+
+Invalid indentation, you can use tabs or spaces but not both
+11052023:18:43:37	64e163d7-ca22-4790-ab0b-37af393c1579	Error: D:\Developer\projects\todo-backend-api\views\index.pug:18:1
+    16| 			h2 list tasks
+    17| 			ul(id="taks_container")
+  > 18|                 each val in task
+--------^
+    19|                     li = val
+    20|                 else 
+    21|                     li There are no values
+
+Invalid indentation, you can use tabs or spaces but not both
+11052023:18:43:37	047042ed-1bd0-4d9d-aebd-b2aa2685589c	Error: D:\Developer\projects\todo-backend-api\views\index.pug:18:1
+    16| 			h2 list tasks
+    17| 			ul(id="taks_container")
+  > 18|                 each val in task
+--------^
+    19|                     li = val
+    20|                 else 
+    21|                     li There are no values
+
+Invalid indentation, you can use tabs or spaces but not both
+11052023:18:43:37	12168074-6716-4c5e-b9c9-7d5f750327bc	Error: D:\Developer\projects\todo-backend-api\views\index.pug:18:1
+    16| 			h2 list tasks
+    17| 			ul(id="taks_container")
+  > 18|                 each val in task
+--------^
+    19|                     li = val
+    20|                 else 
+    21|                     li There are no values
+
+Invalid indentation, you can use tabs or spaces but not both
+11052023:18:43:37	b4c78b19-32d4-4801-ad6e-34c6c13a75f7	Error: D:\Developer\projects\todo-backend-api\views\index.pug:18:1
+    16| 			h2 list tasks
+    17| 			ul(id="taks_container")
+  > 18|                 each val in task
+--------^
+    19|                     li = val
+    20|                 else 
+    21|                     li There are no values
+
+Invalid indentation, you can use tabs or spaces but not both
+11052023:18:44:20	a187690a-c94b-4193-afe7-594e919f1583	Error: D:\Developer\projects\todo-backend-api\views\index.pug:18:1
+    16| 			h2 list tasks
+    17| 			ul(id="taks_container")
+  > 18|                 each val in task 
+--------^
+    19|                     li = val 
+    20|                 else 
+    21|                     li no values
+
+Invalid indentation, you can use tabs or spaces but not both
+11052023:18:44:21	9c9822aa-559d-4341-bb31-2196a36a9b32	Error: D:\Developer\projects\todo-backend-api\views\index.pug:18:1
+    16| 			h2 list tasks
+    17| 			ul(id="taks_container")
+  > 18|                 each val in task 
+--------^
+    19|                     li = val 
+    20|                 else 
+    21|                     li no values
+
+Invalid indentation, you can use tabs or spaces but not both
+11052023:18:44:21	86e7f55f-6a81-4c61-8a62-0fa6c6f42957	Error: D:\Developer\projects\todo-backend-api\views\index.pug:18:1
+    16| 			h2 list tasks
+    17| 			ul(id="taks_container")
+  > 18|                 each val in task 
+--------^
+    19|                     li = val 
+    20|                 else 
+    21|                     li no values
+
+Invalid indentation, you can use tabs or spaces but not both
+11052023:18:44:21	2c1b646a-8c2a-4831-9ec4-b32139a7f54a	Error: D:\Developer\projects\todo-backend-api\views\index.pug:18:1
+    16| 			h2 list tasks
+    17| 			ul(id="taks_container")
+  > 18|                 each val in task 
+--------^
+    19|                     li = val 
+    20|                 else 
+    21|                     li no values
+
+Invalid indentation, you can use tabs or spaces but not both
+11052023:18:44:21	1a1e5401-ad0c-4901-8c7e-e6921e1880d4	Error: D:\Developer\projects\todo-backend-api\views\index.pug:18:1
+    16| 			h2 list tasks
+    17| 			ul(id="taks_container")
+  > 18|                 each val in task 
+--------^
+    19|                     li = val 
+    20|                 else 
+    21|                     li no values
+
+Invalid indentation, you can use tabs or spaces but not both
+11052023:18:44:21	c7c0f60d-a1c7-465a-b50a-9f8bb1f94fa7	Error: D:\Developer\projects\todo-backend-api\views\index.pug:18:1
+    16| 			h2 list tasks
+    17| 			ul(id="taks_container")
+  > 18|                 each val in task 
+--------^
+    19|                     li = val 
+    20|                 else 
+    21|                     li no values
+
+Invalid indentation, you can use tabs or spaces but not both
+11052023:18:44:56	25760d25-c2aa-4a38-8dd7-c019b4022b77	Error: D:\Developer\projects\todo-backend-api\views\index.pug:18:1
+    16| 			h2 list tasks
+    17| 			ul(id="taks_container")
+  > 18|                 each val in task
+--------^
+    19|                     li = val
+    20|                 else
+    21|                     li no values
+
+Invalid indentation, you can use tabs or spaces but not both
+11052023:18:44:57	fcf4ea3e-418f-4e54-a348-9c5c606455ea	Error: D:\Developer\projects\todo-backend-api\views\index.pug:18:1
+    16| 			h2 list tasks
+    17| 			ul(id="taks_container")
+  > 18|                 each val in task
+--------^
+    19|                     li = val
+    20|                 else
+    21|                     li no values
+
+Invalid indentation, you can use tabs or spaces but not both
+11052023:18:44:57	bb1082fe-4e43-4cfc-8fe4-2397e69e4a06	Error: D:\Developer\projects\todo-backend-api\views\index.pug:18:1
+    16| 			h2 list tasks
+    17| 			ul(id="taks_container")
+  > 18|                 each val in task
+--------^
+    19|                     li = val
+    20|                 else
+    21|                     li no values
+
+Invalid indentation, you can use tabs or spaces but not both
+11052023:18:44:57	e5de8ddd-02ec-4ffd-9ccc-bae8766c5b78	Error: D:\Developer\projects\todo-backend-api\views\index.pug:18:1
+    16| 			h2 list tasks
+    17| 			ul(id="taks_container")
+  > 18|                 each val in task
+--------^
+    19|                     li = val
+    20|                 else
+    21|                     li no values
+
+Invalid indentation, you can use tabs or spaces but not both
+11052023:18:44:58	3f9c8e9c-4356-4d77-bcf2-0bd4b4b17193	Error: D:\Developer\projects\todo-backend-api\views\index.pug:18:1
+    16| 			h2 list tasks
+    17| 			ul(id="taks_container")
+  > 18|                 each val in task
+--------^
+    19|                     li = val
+    20|                 else
+    21|                     li no values
+
+Invalid indentation, you can use tabs or spaces but not both
+11052023:18:45:11	df74c1ea-bd6c-4a9c-b199-8989215686a6	Error: D:\Developer\projects\todo-backend-api\views\index.pug:18:1
+    16| 			h2 list tasks
+    17| 			ul(id="taks_container")
+  > 18|                 each val in task
+--------^
+    19|                     li = val
+    20|                 else
+    21|                     li no values
+
+Invalid indentation, you can use tabs or spaces but not both
+11052023:18:45:12	b5db6f69-9e85-4d27-8c74-6a2ecd2a3b6c	Error: D:\Developer\projects\todo-backend-api\views\index.pug:18:1
+    16| 			h2 list tasks
+    17| 			ul(id="taks_container")
+  > 18|                 each val in task
+--------^
+    19|                     li = val
+    20|                 else
+    21|                     li no values
+
+Invalid indentation, you can use tabs or spaces but not both
+11052023:18:45:55	c8d60495-48a3-4d1f-af04-e0461d1e9e87	Error: D:\Developer\projects\todo-backend-api\views\index.pug:18:1
+    16| 			h2 list tasks
+    17| 			ul(id="taks_container")
+  > 18|                 each val in task
+--------^
+    19|                     li = val
+    20|                 else
+    21|                     li no values
+
+Invalid indentation, you can use tabs or spaces but not both
+11052023:18:57:31	254d704b-71b5-4ce5-8bc8-5293108aecf5	Error: D:\Developer\projects\todo-backend-api\views\index.pug:19:10
+    17| 			ul(id="taks_container")
+    18| 				each val in task
+  > 19| 					li= a(href="")=val.title
+-----------------^
+    20| 				else
+    21| 					li no values
+    22| 
+
+Syntax Error: Assigning to rvalue
+11052023:18:58:55	baa1c374-0cc1-40e4-9617-5e3c644b494a	Error: D:\Developer\projects\todo-backend-api\views\index.pug:19:11
+    17| 			ul(id="taks_container")
+    18| 				each val in task
+  > 19| 					li= a:p=val.title
+------------------^
+    20| 				else
+    21| 					li no values
+    22| 
+
+Syntax Error: Unexpected token
+11052023:18:58:57	56bba5a8-a55c-4872-9154-486ff5a7d2f2	Error: D:\Developer\projects\todo-backend-api\views\index.pug:19:11
+    17| 			ul(id="taks_container")
+    18| 				each val in task
+  > 19| 					li= a:p=val.title
+------------------^
+    20| 				else
+    21| 					li no values
+    22| 
+
+Syntax Error: Unexpected token
+11052023:18:59:01	25b360b6-e84e-47f4-aaec-718c39ef8525	Error: D:\Developer\projects\todo-backend-api\views\index.pug:19:11
+    17| 			ul(id="taks_container")
+    18| 				each val in task
+  > 19| 					li= a:p=val.title
+------------------^
+    20| 				else
+    21| 					li no values
+    22| 
+
+Syntax Error: Unexpected token
+11052023:18:59:02	c35fc464-77d9-4800-bf34-5d64c5030622	Error: D:\Developer\projects\todo-backend-api\views\index.pug:19:11
+    17| 			ul(id="taks_container")
+    18| 				each val in task
+  > 19| 					li= a:p=val.title
+------------------^
+    20| 				else
+    21| 					li no values
+    22| 
+
+Syntax Error: Unexpected token
+11052023:19:01:05	5d5e6524-19d8-4d1a-b3f2-2feb12367a06	Error: Failed to lookup view "list-tems.pug" in views directory "D:\Developer\projects\todo-backend-api\views"
+11052023:19:01:32	5502ba11-e95e-4998-aff1-b0eab0ceeb66	Error: Failed to lookup view "list-tems" in views directory "D:\Developer\projects\todo-backend-api\views"
+11052023:19:16:49	0f0c251a-54f1-4e8f-8ebd-305d6c270168	Error: Failed to lookup view "list-items" in views directory "D:\Developer\projects\todo-backend-api\views"
+11052023:19:18:36	022ed29b-8e7e-4a88-a2e3-0b62de0c10a5	SyntaxError: Unexpected identifier in D:\Developer\projects\todo-backend-api\views\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+11052023:19:19:31	c1b9bf32-811a-437e-aa97-bc2ba2229f05	SyntaxError: Unexpected identifier in D:\Developer\projects\todo-backend-api\views\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+11052023:19:19:33	a40695cb-4029-4f8e-a389-dbf6fd2a50b3	SyntaxError: Unexpected identifier in D:\Developer\projects\todo-backend-api\views\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+11052023:19:23:23	59650a5f-b815-430f-bced-3b519fa87ced	SyntaxError: Unexpected identifier in D:\Developer\projects\todo-backend-api\views\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+11052023:19:35:37	894e9352-3952-4145-9364-403f0b121538	ReferenceError: D:\Developer\projects\todo-backend-api\views\item.ejs:4
+    2|     hx-swap="outerHTML" method="POST">
+    3|     <input name="done" type="hidden" value="false" />
+ >> 4|     <input name="name" type="text" value="<% task.title %>" />
+    5|     <input type="submit" />
+    6| </form>
+
+task is not defined
+11052023:19:35:39	1cbafe1f-41ce-416a-80f6-a6e201b8c84e	ReferenceError: D:\Developer\projects\todo-backend-api\views\item.ejs:4
+    2|     hx-swap="outerHTML" method="POST">
+    3|     <input name="done" type="hidden" value="false" />
+ >> 4|     <input name="name" type="text" value="<% task.title %>" />
+    5|     <input type="submit" />
+    6| </form>
+
+task is not defined
+11052023:20:07:22	33114b5c-decd-40df-807d-54c0b426f200	SyntaxError: Unexpected token '!' in D:\Developer\projects\todo-backend-api\views\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+11052023:20:33:06	fbea1f4c-09dc-4416-a85c-4d687fd925ea	ReferenceError: D:\Developer\projects\todo-backend-api\views\index.ejs:24
+    22|     </form>
+    23|     <ul id="taks_container">
+ >> 24|         <% for( let index=0; index < tasks.length; index++ ) { %>
+    25|             <li style="padding: 10px;">
+    26|                 <div style="
+    27|                             display: flex;
+
+tasks is not defined
+11052023:20:54:05	6d20a4ff-2f25-4022-bd6f-d89606732d4d	SyntaxError: missing ) after argument list in D:\Developer\projects\todo-backend-api\views\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+11052023:20:54:06	4ecf7e84-61ef-4095-9df6-5df8621bdf77	SyntaxError: missing ) after argument list in D:\Developer\projects\todo-backend-api\views\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.

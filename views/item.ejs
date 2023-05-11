@@ -1,0 +1,8 @@
+<li style="padding: 10px;">
+    <form action="http://localhost:8081/edit/<%= task.id %>" hx-patch="http://localhost:8081/edit/<%= task.id %>"
+        hx-target="#taks_container" hx-swap="outerHTML" method="POST">
+        <input name="done" type="hidden" value="false" />
+        <input name="title" type="text" value="<%= task.title %>" />
+        <input type="submit" />
+    </form>
+</li>
