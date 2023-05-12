@@ -4,7 +4,7 @@ A nodejs express prisma backend that serves a JSON REST API and a html static fi
 ### initializing
 clone it or download it whaterver then.
 1. npm install
-2. Set your DATABASE_URL creating yout own .env file, as the exemple in the project. It may work anyesy though, becouse I set sqlite. If you wanna set any othrr database plese go ahead and change the prisma file, see the docs :)
+2. Set your DATABASE_URL creating yout own .env file, as the exemple in the project. It may work anyway though, because I have used sqlite. If you wanna set any other database plese go ahead and change the prisma file, see the docs :)
 3. npx prisma migrate dev --name init
 4. npx prisma generate
 5. npm run dev
