@@ -10,4 +10,4 @@ clone it or download it whaterver then.
 5. npm run dev
 6. It should open on 8081 and changing it may break the statics urls on the ejs files on view, so change the ports there as well :>.
 
-Made this for fun as a side project for studing backend and to experiment with HTMX
+Made this for fun as a side project for studing backend and to experiment with HTMX.
